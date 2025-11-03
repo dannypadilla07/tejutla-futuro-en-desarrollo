@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuesta Ciudadana: Tejutla Futuro en Desarrollo</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Participa en la encuesta ciudadana para construir el futuro de Tejutla. Tu opinión es clave para el desarrollo de nuestra comunidad. ¡Vota por los proyectos prioritarios!">
+    <meta name="keywords" content="Tejutla, encuesta ciudadana, desarrollo municipal, participación ciudadana, El Salvador">
+    <meta name="author" content="Municipalidad de Tejutla">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tejulta.example.com/">
+    <meta property="og:title" content="Encuesta Ciudadana: Tejutla Futuro en Desarrollo">
+    <meta property="og:description" content="Participa en la encuesta ciudadana para construir el futuro de Tejutla. Tu opinión es clave para el desarrollo de nuestra comunidad.">
+    <meta property="og:image" content="https://picsum.photos/1200/630?grayscale&blur=2">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tejulta.example.com/">
+    <meta property="twitter:title" content="Encuesta Ciudadana: Tejutla Futuro en Desarrollo">
+    <meta property="twitter:description" content="Participa en la encuesta ciudadana para construir el futuro de Tejutla. Tu opinión es clave para el desarrollo de nuestra comunidad.">
+    <meta property="twitter:image" content="https://picsum.photos/1200/630?grayscale&blur=2">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#2E86C1',
+              secondary: '#0E3A66',
+              accent: '#F4B400',
+              'light-bg': '#F7FAFC',
+              'dark-bg': '#0F172A',
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Google Analytics (GA4) Placeholder -->
+    <!-- TODO: agregar ID GA4 -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXX');
+    </script>
+    -->
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Encuesta Ciudadana Tejutla",
+      "url": "https://tejulta.example.com/",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Municipalidad de Tejutla",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://tejulta.example.com/logo.svg"
+        }
+      }
+    }
+    </script>
+
+    <!--
+    sitemap.xml (Example, place in root)
+    <?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <url>
+        <loc>https://tejulta.example.com/</loc>
+        <lastmod>2023-10-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+      </url>
+    </urlset>
+    -->
+    
+    <!--
+    robots.txt (Example, place in root)
+    User-agent: *
+    Allow: /
+    Sitemap: https://tejulta.example.com/sitemap.xml
+    -->
+
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+<body class="bg-light-bg dark:bg-dark-bg text-gray-800 dark:text-gray-200 antialiased">
+    <div id="root"></div>
+</body>
+</html>
