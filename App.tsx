@@ -7,6 +7,7 @@ import SurveySections from './components/SurveySections';
 import OpenFeedback from './components/OpenFeedback';
 import Results from './components/Results';
 import FAQ from './components/FAQ';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Modal from './components/Modal';
 import { AppContext, Language, Theme } from './context/AppContext';
@@ -60,6 +61,7 @@ function App() {
           <OpenFeedback />
           <Results />
           <FAQ />
+          <Contact />
         </main>
         <Footer />
       </div>

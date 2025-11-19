@@ -19,6 +19,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenSurvey }) => {
         { href: '#feedback', text: t.navFeedback },
         { href: '#results', text: t.navResults },
         { href: '#faq', text: t.navFAQ },
+        { href: '#contact', text: t.navContact },
     ];
 
     return (

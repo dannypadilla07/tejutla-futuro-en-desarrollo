@@ -1,4 +1,3 @@
-
 export const translations = {
   es: {
     // Header & Nav
@@ -8,6 +7,7 @@ export const translations = {
     navFeedback: 'Opinión Libre',
     navResults: 'Resultados',
     navFAQ: 'Preguntas Frecuentes',
+    navContact: 'Contacto',
     navLang: 'EN',
     
     // Hero
@@ -43,6 +43,18 @@ export const translations = {
     feedbackSubmit: 'Enviar Sugerencia',
     formSuccess: '¡Gracias! Tu sugerencia ha sido enviada.',
     formError: 'Hubo un error. Por favor, inténtalo de nuevo.',
+    consentError: 'Debes aceptar los términos para continuar.',
+    feedbackCategoryLabel: 'Categoría de tu opinión',
+    feedbackCategorySuggestion: 'Sugerencia',
+    feedbackCategoryComplaint: 'Queja',
+    feedbackCategoryPraise: 'Felicitación',
+    geminiPromptTitle: '¿Necesitas inspiración? Genera ideas con IA ✨',
+    geminiPromptButton: 'Generar Ideas',
+    geminiPromptInputPlaceholder: 'Ej: Actividades para jóvenes',
+    geminiPromptLoading: 'Generando ideas...',
+    geminiPromptError: 'No se pudieron generar ideas. Intenta de nuevo.',
+    geminiPromptDisclaimer: 'Las ideas son generadas por IA y pueden requerir revisión.',
+    geminiPromptUseIdea: 'Usar esta idea',
     
     // Results
     resultsTitle: 'Resultados Preliminares',
@@ -63,6 +75,21 @@ export const translations = {
       { q: '¿Cuándo se publicarán los resultados finales?', a: 'Los resultados completos y analizados se publicarán en el sitio web oficial del municipio 30 días después del cierre de la encuesta.' },
       { q: '¿Cómo se usarán los resultados?', a: 'Los resultados serán un pilar fundamental para la planificación del presupuesto y la priorización de proyectos municipales para el próximo año.' },
     ],
+
+    // Contact
+    contactTitle: 'Contáctanos',
+    contactSubtitle: '¿Tienes preguntas o necesitas más información? Envíanos un mensaje.',
+    contactNameLabel: 'Nombre Completo',
+    contactNamePlaceholder: 'Tu Nombre',
+    contactEmailLabel: 'Correo Electrónico',
+    contactEmailPlaceholder: 'tu@email.com',
+    contactSubjectLabel: 'Asunto',
+    contactSubjectPlaceholder: 'Ej: Información adicional',
+    contactMessageLabel: 'Mensaje',
+    contactMessagePlaceholder: 'Escribe tu mensaje aquí...',
+    contactSubmit: 'Enviar Mensaje',
+    contactFormSuccess: '¡Mensaje enviado con éxito! Te responderemos pronto.',
+    contactFormError: 'Error al enviar. Inténtalo de nuevo.',
     
     // Footer
     footerContact: 'Contacto Municipal',
@@ -82,6 +109,7 @@ export const translations = {
     navFeedback: 'Open Feedback',
     navResults: 'Results',
     navFAQ: 'FAQ',
+    navContact: 'Contact',
     navLang: 'ES',
     
     // Hero
@@ -117,6 +145,18 @@ export const translations = {
     feedbackSubmit: 'Send Suggestion',
     formSuccess: 'Thank you! Your suggestion has been sent.',
     formError: 'There was an error. Please try again.',
+    consentError: 'You must accept the terms to continue.',
+    feedbackCategoryLabel: 'Category of your feedback',
+    feedbackCategorySuggestion: 'Suggestion',
+    feedbackCategoryComplaint: 'Complaint',
+    feedbackCategoryPraise: 'Praise',
+    geminiPromptTitle: 'Need inspiration? Generate ideas with AI ✨',
+    geminiPromptButton: 'Generate Ideas',
+    geminiPromptInputPlaceholder: 'E.g., Activities for youth',
+    geminiPromptLoading: 'Generating ideas...',
+    geminiPromptError: 'Could not generate ideas. Please try again.',
+    geminiPromptDisclaimer: 'Ideas are AI-generated and may require review.',
+    geminiPromptUseIdea: 'Use this idea',
     
     // Results
     resultsTitle: 'Preliminary Results',
@@ -137,6 +177,21 @@ export const translations = {
       { q: 'When will the final results be published?', a: 'The full, analyzed results will be published on the official municipal website 30 days after the survey closes.' },
       { q: 'How will the results be used?', a: 'The results will be a cornerstone for budget planning and prioritizing municipal projects for the upcoming year.' },
     ],
+
+    // Contact
+    contactTitle: 'Contact Us',
+    contactSubtitle: 'Have questions or need more information? Send us a message.',
+    contactNameLabel: 'Full Name',
+    contactNamePlaceholder: 'Your Name',
+    contactEmailLabel: 'Email Address',
+    contactEmailPlaceholder: 'you@email.com',
+    contactSubjectLabel: 'Subject',
+    contactSubjectPlaceholder: 'E.g., Additional information',
+    contactMessageLabel: 'Message',
+    contactMessagePlaceholder: 'Write your message here...',
+    contactSubmit: 'Send Message',
+    contactFormSuccess: 'Message sent successfully! We will get back to you soon.',
+    contactFormError: 'Error sending message. Please try again.',
     
     // Footer
     footerContact: 'Municipal Contact',
